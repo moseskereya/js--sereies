@@ -2,11 +2,11 @@ const Mybtn = document.querySelector('.btn');
 const Myclass = document.querySelector('.container');
 const Mybody = document.querySelector('body');
 const MyTime = document.querySelector('.class2');
-let color = ['orange', '#F5B041', '#F7DC6F', '#F1C40F'];
+let color = ['black', 'red', 'green', 'teal'];
 
 Mybtn.addEventListener('click', function(){
 let random = Math.floor(Math.random()*color.length);
-    Mybody.style.backgroundColor = color[random];
+    MyTime.style.color = color[random];
     MyTime.style.display = 'block';
 });
 
